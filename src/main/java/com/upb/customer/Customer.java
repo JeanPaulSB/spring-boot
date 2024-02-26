@@ -20,8 +20,7 @@ public class Customer
     private String email;
     private Integer age;
 
-    public Customer(Integer id, String name, String email, Integer age) {
-        this.id = id;
+    public Customer( String name, String email, Integer age) {
         this.name = name;
         this.email = email;
         this.age = age;

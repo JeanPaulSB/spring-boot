@@ -12,14 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/")
 public class Main {
-
-    private final CustomerRepository customerRepository;
-
-    public  Main(CustomerRepository customerRepository){
-        this.customerRepository = customerRepository;
-
-    }
-
+    
     public static void main(String[] args){
         SpringApplication.run(Main.class,args);
     }
