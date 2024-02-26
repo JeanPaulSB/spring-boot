@@ -1,4 +1,4 @@
-package com.upb;
+package com.upb.customer;
 
 import jakarta.persistence.*;
 import org.springframework.web.bind.annotation.GetMapping;
